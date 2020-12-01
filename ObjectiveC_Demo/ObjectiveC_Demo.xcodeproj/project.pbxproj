@@ -53,7 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DE3779BF2576963600D1060B /* ObjectiveC_Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveC_Demo; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3779BF2576963600D1060B /* ObjectiveC_Demo3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveC_Demo3; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3779C22576963600D1060B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE3779CD25769BDC00D1060B /* ObjectiveC_Demo4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveC_Demo4; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3779CF25769BDC00D1060B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		DE3779C02576963600D1060B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE3779BF2576963600D1060B /* ObjectiveC_Demo */,
+				DE3779BF2576963600D1060B /* ObjectiveC_Demo3 */,
 				DE3779CD25769BDC00D1060B /* ObjectiveC_Demo4 */,
 				DE3779D825769BF800D1060B /* ObjectiveC_Demo1 */,
 				DE3779E325769C0200D1060B /* ObjectiveC_Demo2 */,
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE3779BE2576963600D1060B /* ObjectiveC_Demo */ = {
+		DE3779BE2576963600D1060B /* ObjectiveC_Demo3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE3779C62576963600D1060B /* Build configuration list for PBXNativeTarget "ObjectiveC_Demo" */;
+			buildConfigurationList = DE3779C62576963600D1060B /* Build configuration list for PBXNativeTarget "ObjectiveC_Demo3" */;
 			buildPhases = (
 				DE3779BB2576963600D1060B /* Sources */,
 				DE3779BC2576963600D1060B /* Frameworks */,
@@ -164,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = ObjectiveC_Demo;
+			name = ObjectiveC_Demo3;
 			productName = ObjectiveC_Demo3;
-			productReference = DE3779BF2576963600D1060B /* ObjectiveC_Demo */;
+			productReference = DE3779BF2576963600D1060B /* ObjectiveC_Demo3 */;
 			productType = "com.apple.product-type.tool";
 		};
 		DE3779CC25769BDC00D1060B /* ObjectiveC_Demo4 */ = {
@@ -256,10 +256,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE3779BE2576963600D1060B /* ObjectiveC_Demo */,
-				DE3779CC25769BDC00D1060B /* ObjectiveC_Demo4 */,
 				DE3779D725769BF800D1060B /* ObjectiveC_Demo1 */,
 				DE3779E225769C0200D1060B /* ObjectiveC_Demo2 */,
+				DE3779BE2576963600D1060B /* ObjectiveC_Demo3 */,
+				DE3779CC25769BDC00D1060B /* ObjectiveC_Demo4 */,
 			);
 		};
 /* End PBXProject section */
@@ -485,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE3779C62576963600D1060B /* Build configuration list for PBXNativeTarget "ObjectiveC_Demo" */ = {
+		DE3779C62576963600D1060B /* Build configuration list for PBXNativeTarget "ObjectiveC_Demo3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE3779C72576963600D1060B /* Debug */,

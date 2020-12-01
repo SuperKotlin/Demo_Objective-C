@@ -8,13 +8,40 @@
 
 #import <Foundation/Foundation.h>
 
+#pragma mark 狗类的声明
 @interface Dog : NSObject{
     
 }
 
 @end
-
+#pragma mark 狗类的实现
 @implementation Dog
+ 
+
+@end
+
+#pragma mark -
+@interface Cat : NSObject{
+    
+}
+
+@end
+
+@implementation Cat
+ 
+
+@end
+
+
+#pragma mark - 猫类的声明
+@interface Pig : NSObject{
+    
+}
+
+@end
+
+#pragma mark - 猫类的实现
+@implementation Pig
  
 
 @end
