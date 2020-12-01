@@ -82,5 +82,16 @@ int main(int argc, const char * argv[]) {
     [p sayHi]; // 不会报错
     
     NSLog(@"程序执行结束啦...");
+    
+    
+    
+    Person *p1 = [Person new];
+    p1->name = @"kangkang";
+    Person *p2 = p1;
+    p2->name = @"Jane";
+    NSLog(@"p1:%@, p2:%@",p1->name,p2->name); //p1:Jane, p2:Jane
+    
+    
+    
     return 0;
 }
