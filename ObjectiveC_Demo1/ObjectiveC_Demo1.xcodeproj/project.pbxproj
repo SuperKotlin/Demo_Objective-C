@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DEB00137256F2A7400A9D436 /* ObjectiveC_Demo1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = ObjectiveC_Demo1; path = /Users/zhuyong/Desktop/ObjectiveC_Demo/ObjectiveC_Demo1/build/Debug/ObjectiveC_Demo1; sourceTree = "<absolute>"; };
+		DE37799C25768B6400D1060B /* ObjectiveC_Demo1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveC_Demo1; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB0013A256F2A7400A9D436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB00139256F2A7400A9D436 /* ObjectiveC_Demo1 */,
+				DE37799C25768B6400D1060B /* ObjectiveC_Demo1 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +71,7 @@
 			);
 			name = ObjectiveC_Demo1;
 			productName = ObjectiveC_Demo1;
-			productReference = DEB00137256F2A7400A9D436 /* ObjectiveC_Demo1 */;
+			productReference = DE37799C25768B6400D1060B /* ObjectiveC_Demo1 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
