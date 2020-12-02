@@ -1,21 +1,21 @@
 //
-//  Dog.m
-//  FileManager
+//  Woman.m
+//  对象与方法
 //
 //  Created by 朱勇 on 2020/12/2.
 //  Copyright © 2020 朱勇. All rights reserved.
 //
 
-#import "Dog.h"
+#import "Woman.h"
 
-@implementation Dog
+@implementation Woman
 
--(void) setName:(NSString*)name{
+-(void)setName:(NSString*)name{
     _name = name;
 }
 
 -(NSString*)getName{
     return _name;
 }
-  
+
 @end

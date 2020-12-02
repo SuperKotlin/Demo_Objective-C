@@ -14,6 +14,10 @@
 		DE40E8EC25775BB9009B05D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E8EB25775BB9009B05D4 /* main.m */; };
 		DE40E8F225775BDB009B05D4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E8F125775BDB009B05D4 /* Person.m */; };
 		DE40E8F525775C91009B05D4 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E8F425775C91009B05D4 /* Dog.m */; };
+		DE40E8FD2577D93D009B05D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E8FC2577D93D009B05D4 /* main.m */; };
+		DE40E9032577DA15009B05D4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E9022577DA15009B05D4 /* Person.m */; };
+		DE40E9062577DB1E009B05D4 /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E9052577DB1E009B05D4 /* Woman.m */; };
+		DE40E90E2577E17E009B05D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E90D2577E17E009B05D4 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +75,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		DE40E8F82577D93D009B05D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DE40E9092577E17E009B05D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +111,14 @@
 		DE40E8F125775BDB009B05D4 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		DE40E8F325775C91009B05D4 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		DE40E8F425775C91009B05D4 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		DE40E8FA2577D93D009B05D4 /* 对象与方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "对象与方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE40E8FC2577D93D009B05D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE40E9012577DA15009B05D4 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DE40E9022577DA15009B05D4 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DE40E9042577DB1E009B05D4 /* Woman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
+		DE40E9052577DB1E009B05D4 /* Woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
+		DE40E90B2577E17E009B05D4 /* 上帝杀人案例 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "上帝杀人案例"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE40E90D2577E17E009B05D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +164,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE40E8F72577D93D009B05D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE40E9082577E17E009B05D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -145,6 +189,8 @@
 				DE3779C12576963600D1060B /* ObjectiveC_Demo3 */,
 				DE3779CE25769BDC00D1060B /* ObjectiveC_Demo4 */,
 				DE40E8EA25775BB9009B05D4 /* FileManager */,
+				DE40E8FB2577D93D009B05D4 /* 对象与方法 */,
+				DE40E90C2577E17E009B05D4 /* 上帝杀人案例 */,
 				DE3779C02576963600D1060B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,6 +204,8 @@
 				DE3779E325769C0200D1060B /* ObjectiveC_Demo2 */,
 				DE40E8DE25775B84009B05D4 /* ObjectiveC_Demo5 */,
 				DE40E8E925775BB9009B05D4 /* FileManager */,
+				DE40E8FA2577D93D009B05D4 /* 对象与方法 */,
+				DE40E90B2577E17E009B05D4 /* 上帝杀人案例 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +252,26 @@
 				DE40E8F425775C91009B05D4 /* Dog.m */,
 			);
 			path = FileManager;
+			sourceTree = "<group>";
+		};
+		DE40E8FB2577D93D009B05D4 /* 对象与方法 */ = {
+			isa = PBXGroup;
+			children = (
+				DE40E8FC2577D93D009B05D4 /* main.m */,
+				DE40E9012577DA15009B05D4 /* Person.h */,
+				DE40E9022577DA15009B05D4 /* Person.m */,
+				DE40E9042577DB1E009B05D4 /* Woman.h */,
+				DE40E9052577DB1E009B05D4 /* Woman.m */,
+			);
+			path = "对象与方法";
+			sourceTree = "<group>";
+		};
+		DE40E90C2577E17E009B05D4 /* 上帝杀人案例 */ = {
+			isa = PBXGroup;
+			children = (
+				DE40E90D2577E17E009B05D4 /* main.m */,
+			);
+			path = "上帝杀人案例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +379,40 @@
 			productReference = DE40E8E925775BB9009B05D4 /* FileManager */;
 			productType = "com.apple.product-type.tool";
 		};
+		DE40E8F92577D93D009B05D4 /* 对象与方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE40E9002577D93D009B05D4 /* Build configuration list for PBXNativeTarget "对象与方法" */;
+			buildPhases = (
+				DE40E8F62577D93D009B05D4 /* Sources */,
+				DE40E8F72577D93D009B05D4 /* Frameworks */,
+				DE40E8F82577D93D009B05D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "对象与方法";
+			productName = "对象与方法";
+			productReference = DE40E8FA2577D93D009B05D4 /* 对象与方法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		DE40E90A2577E17E009B05D4 /* 上帝杀人案例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE40E90F2577E17E009B05D4 /* Build configuration list for PBXNativeTarget "上帝杀人案例" */;
+			buildPhases = (
+				DE40E9072577E17E009B05D4 /* Sources */,
+				DE40E9082577E17E009B05D4 /* Frameworks */,
+				DE40E9092577E17E009B05D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "上帝杀人案例";
+			productName = "上帝杀人案例";
+			productReference = DE40E90B2577E17E009B05D4 /* 上帝杀人案例 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -338,6 +440,12 @@
 					DE40E8E825775BB9009B05D4 = {
 						CreatedOnToolsVersion = 11.6;
 					};
+					DE40E8F92577D93D009B05D4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					DE40E90A2577E17E009B05D4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 				};
 			};
 			buildConfigurationList = DE3779BA2576963600D1060B /* Build configuration list for PBXProject "ObjectiveC_Demo" */;
@@ -359,6 +467,8 @@
 				DE3779CC25769BDC00D1060B /* ObjectiveC_Demo4 */,
 				DE40E8DD25775B84009B05D4 /* ObjectiveC_Demo5 */,
 				DE40E8E825775BB9009B05D4 /* FileManager */,
+				DE40E8F92577D93D009B05D4 /* 对象与方法 */,
+				DE40E90A2577E17E009B05D4 /* 上帝杀人案例 */,
 			);
 		};
 /* End PBXProject section */
@@ -410,6 +520,24 @@
 				DE40E8F525775C91009B05D4 /* Dog.m in Sources */,
 				DE40E8F225775BDB009B05D4 /* Person.m in Sources */,
 				DE40E8EC25775BB9009B05D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE40E8F62577D93D009B05D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE40E9062577DB1E009B05D4 /* Woman.m in Sources */,
+				DE40E9032577DA15009B05D4 /* Person.m in Sources */,
+				DE40E8FD2577D93D009B05D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE40E9072577E17E009B05D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE40E90E2577E17E009B05D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +749,38 @@
 			};
 			name = Release;
 		};
+		DE40E8FE2577D93D009B05D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE40E8FF2577D93D009B05D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE40E9102577E17E009B05D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE40E9112577E17E009B05D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -683,6 +843,24 @@
 			buildConfigurations = (
 				DE40E8EE25775BB9009B05D4 /* Debug */,
 				DE40E8EF25775BB9009B05D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE40E9002577D93D009B05D4 /* Build configuration list for PBXNativeTarget "对象与方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE40E8FE2577D93D009B05D4 /* Debug */,
+				DE40E8FF2577D93D009B05D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE40E90F2577E17E009B05D4 /* Build configuration list for PBXNativeTarget "上帝杀人案例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE40E9102577E17E009B05D4 /* Debug */,
+				DE40E9112577E17E009B05D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,22 +14,29 @@
    1). 头文件 .h    ---->  类的声明
    2). 实现文件.m   ---->  类的实现
 
-2、创建方式
+2、创建方式(两种)：
  
     a.先创建.h声明文件，即头文件；再创建.m实现文件。
-    b.创建Cocoa文件（Cocoa class），同时生成.h和.m文件。
+    b.创建Cocoa文件（Cocoa Class），同时生成.h和.m文件。
 
+3、
 
 */
 
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
+#import "Dog.h"
 
 int main(int argc, const char * argv[]) {
     
     Person *p = [Person new];
-    [p sayHi];
+//    [p sayHi];
+    
+    Dog *dog = [Dog new];
+    [dog setName:@"Tom"];
+    NSString *name = [dog getName];
+    NSLog(@"狗的名字叫：%@",name);
     
     return 0;
 }
