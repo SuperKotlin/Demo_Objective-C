@@ -7,10 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "God.h"
 
 
 int main(int argc, const char * argv[]) {
+    
+    God* god = [God new];
+    god->_name = @"上帝";
+    god->gender = Girl;
+    
+    Person *p = [Person new];
+    p->_name = @"莎奇拉";
+    p->gender = Boy;
+    
+    [god killWithPerson:p];
+    
     
     return 0;
 }

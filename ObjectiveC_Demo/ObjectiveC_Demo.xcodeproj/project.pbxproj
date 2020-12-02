@@ -18,6 +18,8 @@
 		DE40E9032577DA15009B05D4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E9022577DA15009B05D4 /* Person.m */; };
 		DE40E9062577DB1E009B05D4 /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E9052577DB1E009B05D4 /* Woman.m */; };
 		DE40E90E2577E17E009B05D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E90D2577E17E009B05D4 /* main.m */; };
+		DE40E9142577E920009B05D4 /* God.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E9132577E920009B05D4 /* God.m */; };
+		DE40E9172577E92B009B05D4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40E9162577E92B009B05D4 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,6 +121,11 @@
 		DE40E9052577DB1E009B05D4 /* Woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
 		DE40E90B2577E17E009B05D4 /* 上帝杀人案例 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "上帝杀人案例"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE40E90D2577E17E009B05D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE40E9122577E920009B05D4 /* God.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = God.h; sourceTree = "<group>"; };
+		DE40E9132577E920009B05D4 /* God.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = God.m; sourceTree = "<group>"; };
+		DE40E9152577E92B009B05D4 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DE40E9162577E92B009B05D4 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DE40E9182577E940009B05D4 /* Gender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gender.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +277,11 @@
 			isa = PBXGroup;
 			children = (
 				DE40E90D2577E17E009B05D4 /* main.m */,
+				DE40E9122577E920009B05D4 /* God.h */,
+				DE40E9132577E920009B05D4 /* God.m */,
+				DE40E9152577E92B009B05D4 /* Person.h */,
+				DE40E9162577E92B009B05D4 /* Person.m */,
+				DE40E9182577E940009B05D4 /* Gender.h */,
 			);
 			path = "上帝杀人案例";
 			sourceTree = "<group>";
@@ -537,6 +549,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE40E9172577E92B009B05D4 /* Person.m in Sources */,
+				DE40E9142577E920009B05D4 /* God.m in Sources */,
 				DE40E90E2577E17E009B05D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
