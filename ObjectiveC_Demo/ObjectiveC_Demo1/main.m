@@ -10,6 +10,8 @@
  
  1、#import指令：#include的 增强版
  
+    #import 后面是用尖括号还是双引号取决于是不是系统类，如果是系统类则是尖括号<>，自定义的类是双引号。
+ 
  2、Foundation框架：
     a.基础、基本的输入输出，基本数据类型等；
     b.Foundation.h文件中包含了Foundation框架中其他所有的头文件。
