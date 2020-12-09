@@ -26,8 +26,29 @@
 int main(int argc, const char * argv[]) {
     
     Person *p = [Person new];
-    p =  [p createPersonWithName:@"小名"];
+    p =  [p createPersonWithName:@"小名1"];
     NSLog(@"姓名：%@，学号：%d",[p getName],[p getNumber]);
+    p =  [p createPersonWithName:@"小名2"];
+    NSLog(@"姓名：%@，学号：%d",[p getName],[p getNumber]);
+    p =  [p createPersonWithName:@"小名3"];
+    NSLog(@"姓名：%@，学号：%d",[p getName],[p getNumber]);
+    p =  [p createPersonWithName:@"小名4"];
+    NSLog(@"姓名：%@，学号：%d",[p getName],[p getNumber]);
+    
+    
+    Person *p2 = [Person new];
+    p2 =  [p2 createPersonWithName:@"小花1"];
+    NSLog(@"姓名：%@，学号：%d",[p2 getName],[p2 getNumber]);
+    p2 =  [p2 createPersonWithName:@"小花2"];
+    NSLog(@"姓名：%@，学号：%d",[p2 getName],[p2 getNumber]);
+    
+    
+//    2020-12-08 23:14:37.452313+0800 static关键字[1580:24672] 姓名：小名1，学号：1
+//    2020-12-08 23:14:37.452813+0800 static关键字[1580:24672] 姓名：小名2，学号：2
+//    2020-12-08 23:14:37.452916+0800 static关键字[1580:24672] 姓名：小名3，学号：3
+//    2020-12-08 23:14:37.452960+0800 static关键字[1580:24672] 姓名：小名4，学号：4
+//    2020-12-08 23:14:37.453001+0800 static关键字[1580:24672] 姓名：小花1，学号：5
+//    2020-12-08 23:14:37.453039+0800 static关键字[1580:24672] 姓名：小花2，学号：6
     
     
     return 0;
