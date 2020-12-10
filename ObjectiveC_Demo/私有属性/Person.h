@@ -1,0 +1,21 @@
+//
+//  Person.h
+//  私有属性
+//
+//  Created by 朱勇 on 2020/12/10.
+//  Copyright © 2020 朱勇. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Person : NSObject{
+    int age;
+}
+
+-(void)sayHi;
+
+@end
+
+NS_ASSUME_NONNULL_END
