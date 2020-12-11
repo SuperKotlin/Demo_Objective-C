@@ -44,6 +44,17 @@
 		DECB4C9F258265EB0064E074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4C9E258265EB0064E074 /* main.m */; };
 		DECB4CAA258266F50064E074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CA9258266F50064E074 /* main.m */; };
 		DECB4CB0258267060064E074 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CAF258267060064E074 /* Person.m */; };
+		DECB4CB32582696D0064E074 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CB22582696D0064E074 /* Person.m */; };
+		DECB4CBB2582F1430064E074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CBA2582F1430064E074 /* main.m */; };
+		DECB4CC12582F1540064E074 /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CC02582F1540064E074 /* Parent.m */; };
+		DECB4CC42582F1D00064E074 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CC32582F1D00064E074 /* Child.m */; };
+		DECB4CCC2582F67D0064E074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CCB2582F67D0064E074 /* main.m */; };
+		DECB4CD52583ADCF0064E074 /* Killer.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CD42583ADCF0064E074 /* Killer.m */; };
+		DECB4CD82583ADDA0064E074 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CD72583ADDA0064E074 /* Person.m */; };
+		DECB4CDB2583AE800064E074 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CDA2583AE800064E074 /* Man.m */; };
+		DECB4CDE2583AED20064E074 /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CDD2583AED20064E074 /* Woman.m */; };
+		DECB4CE12583AF0C0064E074 /* SuperMan.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CE02583AF0C0064E074 /* SuperMan.m */; };
+		DECB4CE42583AF420064E074 /* KillHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CE32583AF420064E074 /* KillHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -227,6 +238,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		DECB4CB62582F1430064E074 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DECB4CC72582F67D0064E074 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -306,6 +335,28 @@
 		DECB4CA9258266F50064E074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DECB4CAE258267060064E074 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		DECB4CAF258267060064E074 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DECB4CB12582696D0064E074 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DECB4CB22582696D0064E074 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DECB4CB82582F1430064E074 /* 方法重写 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "方法重写"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECB4CBA2582F1430064E074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DECB4CBF2582F1540064E074 /* Parent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		DECB4CC02582F1540064E074 /* Parent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		DECB4CC22582F1D00064E074 /* Child.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		DECB4CC32582F1D00064E074 /* Child.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		DECB4CC92582F67D0064E074 /* 多态 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "多态"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECB4CCB2582F67D0064E074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DECB4CD32583ADCF0064E074 /* Killer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Killer.h; sourceTree = "<group>"; };
+		DECB4CD42583ADCF0064E074 /* Killer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Killer.m; sourceTree = "<group>"; };
+		DECB4CD62583ADDA0064E074 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DECB4CD72583ADDA0064E074 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DECB4CD92583AE800064E074 /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		DECB4CDA2583AE800064E074 /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		DECB4CDC2583AED20064E074 /* Woman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
+		DECB4CDD2583AED20064E074 /* Woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
+		DECB4CDF2583AF0C0064E074 /* SuperMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperMan.h; sourceTree = "<group>"; };
+		DECB4CE02583AF0C0064E074 /* SuperMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperMan.m; sourceTree = "<group>"; };
+		DECB4CE22583AF420064E074 /* KillHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KillHeader.h; sourceTree = "<group>"; };
+		DECB4CE32583AF420064E074 /* KillHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KillHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,6 +500,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DECB4CB52582F1430064E074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECB4CC62582F67D0064E074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -474,6 +539,8 @@
 				DECB4C8C25825ED20064E074 /* 修饰符 */,
 				DECB4C9D258265EB0064E074 /* 私有方法 */,
 				DECB4CA8258266F50064E074 /* 私有属性 */,
+				DECB4CB92582F1430064E074 /* 方法重写 */,
+				DECB4CCA2582F67D0064E074 /* 多态 */,
 				DE3779C02576963600D1060B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -501,6 +568,8 @@
 				DECB4C8B25825ED20064E074 /* 修饰符 */,
 				DECB4C9C258265EB0064E074 /* 私有方法 */,
 				DECB4CA7258266F50064E074 /* 私有属性 */,
+				DECB4CB82582F1430064E074 /* 方法重写 */,
+				DECB4CC92582F67D0064E074 /* 多态 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -680,6 +749,8 @@
 			isa = PBXGroup;
 			children = (
 				DECB4C9E258265EB0064E074 /* main.m */,
+				DECB4CB12582696D0064E074 /* Person.h */,
+				DECB4CB22582696D0064E074 /* Person.m */,
 			);
 			path = "私有方法";
 			sourceTree = "<group>";
@@ -692,6 +763,38 @@
 				DECB4CAF258267060064E074 /* Person.m */,
 			);
 			path = "私有属性";
+			sourceTree = "<group>";
+		};
+		DECB4CB92582F1430064E074 /* 方法重写 */ = {
+			isa = PBXGroup;
+			children = (
+				DECB4CBA2582F1430064E074 /* main.m */,
+				DECB4CBF2582F1540064E074 /* Parent.h */,
+				DECB4CC02582F1540064E074 /* Parent.m */,
+				DECB4CC22582F1D00064E074 /* Child.h */,
+				DECB4CC32582F1D00064E074 /* Child.m */,
+			);
+			path = "方法重写";
+			sourceTree = "<group>";
+		};
+		DECB4CCA2582F67D0064E074 /* 多态 */ = {
+			isa = PBXGroup;
+			children = (
+				DECB4CCB2582F67D0064E074 /* main.m */,
+				DECB4CD32583ADCF0064E074 /* Killer.h */,
+				DECB4CD42583ADCF0064E074 /* Killer.m */,
+				DECB4CD62583ADDA0064E074 /* Person.h */,
+				DECB4CD72583ADDA0064E074 /* Person.m */,
+				DECB4CD92583AE800064E074 /* Man.h */,
+				DECB4CDA2583AE800064E074 /* Man.m */,
+				DECB4CDC2583AED20064E074 /* Woman.h */,
+				DECB4CDD2583AED20064E074 /* Woman.m */,
+				DECB4CDF2583AF0C0064E074 /* SuperMan.h */,
+				DECB4CE02583AF0C0064E074 /* SuperMan.m */,
+				DECB4CE22583AF420064E074 /* KillHeader.h */,
+				DECB4CE32583AF420064E074 /* KillHeader.m */,
+			);
+			path = "多态";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1037,6 +1140,40 @@
 			productReference = DECB4CA7258266F50064E074 /* 私有属性 */;
 			productType = "com.apple.product-type.tool";
 		};
+		DECB4CB72582F1430064E074 /* 方法重写 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECB4CBC2582F1430064E074 /* Build configuration list for PBXNativeTarget "方法重写" */;
+			buildPhases = (
+				DECB4CB42582F1430064E074 /* Sources */,
+				DECB4CB52582F1430064E074 /* Frameworks */,
+				DECB4CB62582F1430064E074 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "方法重写";
+			productName = "方法重写";
+			productReference = DECB4CB82582F1430064E074 /* 方法重写 */;
+			productType = "com.apple.product-type.tool";
+		};
+		DECB4CC82582F67D0064E074 /* 多态 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECB4CCD2582F67D0064E074 /* Build configuration list for PBXNativeTarget "多态" */;
+			buildPhases = (
+				DECB4CC52582F67D0064E074 /* Sources */,
+				DECB4CC62582F67D0064E074 /* Frameworks */,
+				DECB4CC72582F67D0064E074 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多态";
+			productName = "多态";
+			productReference = DECB4CC92582F67D0064E074 /* 多态 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1106,6 +1243,12 @@
 					DECB4CA6258266F50064E074 = {
 						CreatedOnToolsVersion = 11.6;
 					};
+					DECB4CB72582F1430064E074 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					DECB4CC82582F67D0064E074 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 				};
 			};
 			buildConfigurationList = DE3779BA2576963600D1060B /* Build configuration list for PBXProject "ObjectiveC_Demo" */;
@@ -1141,6 +1284,8 @@
 				DECB4C8A25825ED20064E074 /* 修饰符 */,
 				DECB4C9B258265EB0064E074 /* 私有方法 */,
 				DECB4CA6258266F50064E074 /* 私有属性 */,
+				DECB4CB72582F1430064E074 /* 方法重写 */,
+				DECB4CC82582F67D0064E074 /* 多态 */,
 			);
 		};
 /* End PBXProject section */
@@ -1310,6 +1455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECB4CB32582696D0064E074 /* Person.m in Sources */,
 				DECB4C9F258265EB0064E074 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1320,6 +1466,30 @@
 			files = (
 				DECB4CB0258267060064E074 /* Person.m in Sources */,
 				DECB4CAA258266F50064E074 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECB4CB42582F1430064E074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECB4CC42582F1D00064E074 /* Child.m in Sources */,
+				DECB4CBB2582F1430064E074 /* main.m in Sources */,
+				DECB4CC12582F1540064E074 /* Parent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECB4CC52582F67D0064E074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECB4CE42583AF420064E074 /* KillHeader.m in Sources */,
+				DECB4CE12583AF0C0064E074 /* SuperMan.m in Sources */,
+				DECB4CDB2583AE800064E074 /* Man.m in Sources */,
+				DECB4CD82583ADDA0064E074 /* Person.m in Sources */,
+				DECB4CD52583ADCF0064E074 /* Killer.m in Sources */,
+				DECB4CCC2582F67D0064E074 /* main.m in Sources */,
+				DECB4CDE2583AED20064E074 /* Woman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1755,6 +1925,38 @@
 			};
 			name = Release;
 		};
+		DECB4CBD2582F1430064E074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DECB4CBE2582F1430064E074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DECB4CCE2582F67D0064E074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DECB4CCF2582F67D0064E074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1943,6 +2145,24 @@
 			buildConfigurations = (
 				DECB4CAC258266F50064E074 /* Debug */,
 				DECB4CAD258266F50064E074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECB4CBC2582F1430064E074 /* Build configuration list for PBXNativeTarget "方法重写" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECB4CBD2582F1430064E074 /* Debug */,
+				DECB4CBE2582F1430064E074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECB4CCD2582F67D0064E074 /* Build configuration list for PBXNativeTarget "多态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECB4CCE2582F67D0064E074 /* Debug */,
+				DECB4CCF2582F67D0064E074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
