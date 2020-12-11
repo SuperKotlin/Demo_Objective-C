@@ -57,6 +57,8 @@
 		DECB4CE42583AF420064E074 /* KillHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CE32583AF420064E074 /* KillHeader.m */; };
 		DECB4CEC2583B58C0064E074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CEB2583B58C0064E074 /* main.m */; };
 		DECB4CF22583B59C0064E074 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CF12583B59C0064E074 /* Person.m */; };
+		DECB4CFA2583CBEE0064E074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CF92583CBEE0064E074 /* main.m */; };
+		DECB4D002583CBFA0064E074 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4CFF2583CBFA0064E074 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -267,6 +269,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		DECB4CF52583CBEE0064E074 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -372,6 +383,10 @@
 		DECB4CEB2583B58C0064E074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DECB4CF02583B59C0064E074 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		DECB4CF12583B59C0064E074 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DECB4CF72583CBEE0064E074 /* 点语法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "点语法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECB4CF92583CBEE0064E074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DECB4CFE2583CBFA0064E074 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DECB4CFF2583CBFA0064E074 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -536,6 +551,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DECB4CF42583CBEE0064E074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -564,6 +586,7 @@
 				DECB4CB92582F1430064E074 /* 方法重写 */,
 				DECB4CCA2582F67D0064E074 /* 多态 */,
 				DECB4CEA2583B58C0064E074 /* description方法 */,
+				DECB4CF82583CBEE0064E074 /* 点语法 */,
 				DE3779C02576963600D1060B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -594,6 +617,7 @@
 				DECB4CB82582F1430064E074 /* 方法重写 */,
 				DECB4CC92582F67D0064E074 /* 多态 */,
 				DECB4CE92583B58C0064E074 /* description方法 */,
+				DECB4CF72583CBEE0064E074 /* 点语法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -829,6 +853,16 @@
 				DECB4CF12583B59C0064E074 /* Person.m */,
 			);
 			path = "description方法";
+			sourceTree = "<group>";
+		};
+		DECB4CF82583CBEE0064E074 /* 点语法 */ = {
+			isa = PBXGroup;
+			children = (
+				DECB4CF92583CBEE0064E074 /* main.m */,
+				DECB4CFE2583CBFA0064E074 /* Person.h */,
+				DECB4CFF2583CBFA0064E074 /* Person.m */,
+			);
+			path = "点语法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1225,6 +1259,23 @@
 			productReference = DECB4CE92583B58C0064E074 /* description方法 */;
 			productType = "com.apple.product-type.tool";
 		};
+		DECB4CF62583CBEE0064E074 /* 点语法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECB4CFB2583CBEE0064E074 /* Build configuration list for PBXNativeTarget "点语法" */;
+			buildPhases = (
+				DECB4CF32583CBEE0064E074 /* Sources */,
+				DECB4CF42583CBEE0064E074 /* Frameworks */,
+				DECB4CF52583CBEE0064E074 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "点语法";
+			productName = "点语法";
+			productReference = DECB4CF72583CBEE0064E074 /* 点语法 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1303,6 +1354,9 @@
 					DECB4CE82583B58C0064E074 = {
 						CreatedOnToolsVersion = 11.6;
 					};
+					DECB4CF62583CBEE0064E074 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 				};
 			};
 			buildConfigurationList = DE3779BA2576963600D1060B /* Build configuration list for PBXProject "ObjectiveC_Demo" */;
@@ -1341,6 +1395,7 @@
 				DECB4CB72582F1430064E074 /* 方法重写 */,
 				DECB4CC82582F67D0064E074 /* 多态 */,
 				DECB4CE82583B58C0064E074 /* description方法 */,
+				DECB4CF62583CBEE0064E074 /* 点语法 */,
 			);
 		};
 /* End PBXProject section */
@@ -1554,6 +1609,15 @@
 			files = (
 				DECB4CF22583B59C0064E074 /* Person.m in Sources */,
 				DECB4CEC2583B58C0064E074 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECB4CF32583CBEE0064E074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECB4D002583CBFA0064E074 /* Person.m in Sources */,
+				DECB4CFA2583CBEE0064E074 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2037,6 +2101,22 @@
 			};
 			name = Release;
 		};
+		DECB4CFC2583CBEE0064E074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DECB4CFD2583CBEE0064E074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2252,6 +2332,15 @@
 			buildConfigurations = (
 				DECB4CEE2583B58C0064E074 /* Debug */,
 				DECB4CEF2583B58C0064E074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECB4CFB2583CBEE0064E074 /* Build configuration list for PBXNativeTarget "点语法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECB4CFC2583CBEE0064E074 /* Debug */,
+				DECB4CFD2583CBEE0064E074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

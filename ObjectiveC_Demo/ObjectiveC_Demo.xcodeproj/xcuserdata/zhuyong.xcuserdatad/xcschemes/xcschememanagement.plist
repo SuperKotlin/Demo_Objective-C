@@ -94,6 +94,11 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>点语法.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 		<key>石头剪刀布.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
