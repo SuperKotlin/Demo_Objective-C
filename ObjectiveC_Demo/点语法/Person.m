@@ -18,4 +18,12 @@
     return name;
 }
 
+-(void)setAge:(int)age{
+    _age=age;
+    NSLog(@"设置age属性的值：%d",age);
+}
+-(int*)getAge{
+    return self->_age;
+}
+
 @end

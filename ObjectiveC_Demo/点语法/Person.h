@@ -12,10 +12,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Person : NSObject{
     NSString *name;
+    int _age;
 }
 
 -(void)setName:(NSString*)name;
 -(NSString*)getName;
+
+-(void)setAge:(int)age;
+-(int*)getAge;
 
 @end
 
