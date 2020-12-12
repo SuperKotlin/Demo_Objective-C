@@ -62,6 +62,7 @@
 		DECB4D082584AA400064E074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4D072584AA400064E074 /* main.m */; };
 		DECB4D0E2584AB740064E074 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4D0D2584AB740064E074 /* Person.m */; };
 		DECB4D11258515F40064E074 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4D10258515F40064E074 /* Student.m */; };
+		DECB4D1425851BE00064E074 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4D1325851BE00064E074 /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -405,6 +406,8 @@
 		DECB4D0D2584AB740064E074 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		DECB4D0F258515F40064E074 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		DECB4D10258515F40064E074 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		DECB4D1225851BE00064E074 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		DECB4D1325851BE00064E074 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -900,6 +903,8 @@
 				DECB4D0D2584AB740064E074 /* Person.m */,
 				DECB4D0F258515F40064E074 /* Student.h */,
 				DECB4D10258515F40064E074 /* Student.m */,
+				DECB4D1225851BE00064E074 /* Teacher.h */,
+				DECB4D1325851BE00064E074 /* Teacher.m */,
 			);
 			path = "@property";
 			sourceTree = "<group>";
@@ -1685,6 +1690,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECB4D1425851BE00064E074 /* Teacher.m in Sources */,
 				DECB4D0E2584AB740064E074 /* Person.m in Sources */,
 				DECB4D082584AA400064E074 /* main.m in Sources */,
 				DECB4D11258515F40064E074 /* Student.m in Sources */,

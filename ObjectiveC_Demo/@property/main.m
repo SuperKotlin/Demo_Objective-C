@@ -8,6 +8,7 @@
 
 /*
  
+ ==============================xcode4.4之前的写法==============================
  
  1、@property
     作用：自动生成属性的get、set方法的声明。属性还要自己定义，实现还要自己写。
@@ -18,6 +19,10 @@
         自动生成以下代码：
         -(void)setName:(NSString*)name;
         -(NSString)name;
+ 
+    多个声明：@property可以批量生成(要求类型一致)，比如：
+            
+            @property float weight,height;
  
  2、@synthesize
     作用：生成一个真私有的属性（在@implementation中生成私有属性），并自动生成属性的get、set方法的实现。
@@ -41,6 +46,11 @@
         }
         
         @end
+ 
+----
+        多个声明：@synthesize可以批量生成(不要求类型一致)，比如：
+         
+         @synthesize name, age, weight, height;
  
  3、系统生成多余的属性会造成属性变多，所以我们自己不再定义声明属性，使用系统生产的私有属性即可。
     此时通过对象名访问属性就不再访问得到了，只有一个isa会被自动提示：person->isa。
@@ -82,12 +92,33 @@
          @synthesize name = _name;
 
          @end
+ 
+ 
+ 4、自动生成的get、set方法是没有任何逻辑验证的，如果需要逻辑验证，那么就自己实现get、set方法进行逻辑编码。
+ 
+ 
+ ==============================xcode4.4之后的写法==============================
+ 
+ 1、什么都不需要做，只需要写一个@property即可。例子见 Teacher类：
         
+ @property NSString *name;
+ 
+ 系统会自动生成私有属性（带下划线）和get、set方法。
+ 
+ -(void)test{
+     self->_name = @"测试类，私有属性";
+ }
+ 
+ 2、如果需要逻辑验证，则自己重新set、get方法。
+    
+    注意：可以单独重新get或者set方法，如果同时重新，则会编译报错，因为此时系统不会再自动生成私有属性的声明，自己在@implementation中补上就行。
+ 
  */
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
 #import "Student.h"
+#import "Teacher.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -101,6 +132,10 @@ int main(int argc, const char * argv[]) {
     [student setName:@"marry"];
     NSLog(@"学生的名字叫%@。",[student name]);
     
+    
+    Teacher *teacher = [Teacher new];
+    [teacher setName:nil];
+    NSLog(@"老师的名字叫%@。",[teacher name]);
     
     return 0;
 }
