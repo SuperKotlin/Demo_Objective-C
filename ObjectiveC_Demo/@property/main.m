@@ -137,5 +137,8 @@ int main(int argc, const char * argv[]) {
     [teacher setName:nil];
     NSLog(@"老师的名字叫%@。",[teacher name]);
     
+    Person *p=@"123";
+    NSLog(@"%@",p);
+    
     return 0;
 }
