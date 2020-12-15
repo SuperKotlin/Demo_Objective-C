@@ -66,6 +66,8 @@
 		DECB4D1C258725A20064E074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4D1B258725A20064E074 /* main.m */; };
 		DECB4D2225872B660064E074 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4D2125872B660064E074 /* Person.m */; };
 		DECB4D2A25872E650064E074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4D2925872E650064E074 /* main.m */; };
+		DECB4D302587AD5C0064E074 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4D2F2587AD5C0064E074 /* Person.m */; };
+		DECB4D332587AD8A0064E074 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = DECB4D322587AD8A0064E074 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -435,6 +437,10 @@
 		DECB4D2125872B660064E074 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		DECB4D2725872E650064E074 /* instancetype */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = instancetype; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECB4D2925872E650064E074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DECB4D2E2587AD5C0064E074 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DECB4D2F2587AD5C0064E074 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DECB4D312587AD8A0064E074 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		DECB4D322587AD8A0064E074 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -968,6 +974,10 @@
 			isa = PBXGroup;
 			children = (
 				DECB4D2925872E650064E074 /* main.m */,
+				DECB4D2E2587AD5C0064E074 /* Person.h */,
+				DECB4D2F2587AD5C0064E074 /* Person.m */,
+				DECB4D312587AD8A0064E074 /* Student.h */,
+				DECB4D322587AD8A0064E074 /* Student.m */,
 			);
 			path = instancetype;
 			sourceTree = "<group>";
@@ -1815,7 +1825,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECB4D302587AD5C0064E074 /* Person.m in Sources */,
 				DECB4D2A25872E650064E074 /* main.m in Sources */,
+				DECB4D332587AD8A0064E074 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
