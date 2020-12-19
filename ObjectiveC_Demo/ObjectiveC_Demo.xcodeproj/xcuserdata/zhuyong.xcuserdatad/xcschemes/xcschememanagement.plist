@@ -84,6 +84,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>初始化.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>匿名对象.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
