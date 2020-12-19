@@ -13,7 +13,7 @@
 //- (instancetype)init{
 //    self = [super init];
 //    if (self) {
-          //Initialize self
+//        //Initialize self
 //        self.name = @"Jack";
 //    }
 //    return self;
@@ -28,5 +28,13 @@
     return self;
 }
 
+
+//这里必须以initWith开头，否则会报错。因为initWith开头的才会被编译器认为是构造方法，self只能在构造方法中赋值。
+-(instancetype)initWithName:(NSString *)name{
+    if (self = [super init]) {
+        self.name = name;
+    }
+    return self;
+}
 
 @end
