@@ -22,8 +22,6 @@
         当对象被回收的时候，会自动调用dealloc方法。
  
  
-    
- 
  */
 
 #import <Foundation/Foundation.h>
