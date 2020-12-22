@@ -17,7 +17,7 @@
 }
 
 -(void)sayHi{
-    NSLog(@"Hello，你好啊，我叫小肚！");
+    NSLog(@"Hello，你好啊，我叫%@.",self.name);
 }
 
 @end

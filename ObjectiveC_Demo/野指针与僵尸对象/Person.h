@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Person : NSObject
 
+@property NSString *name;
+
 -(void)sayHi;
 
 @end

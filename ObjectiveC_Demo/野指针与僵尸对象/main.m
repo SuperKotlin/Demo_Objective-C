@@ -25,7 +25,9 @@ int main(int argc, const char * argv[]) {
     
     Person *p1 = [[Person alloc]init];
     [p1 release]; //回收对象
+    NSLog(@"retainCount=%lu",p1.retainCount);
     
+    p1.name = @"Jack";
     [p1 sayHi];
     
     
